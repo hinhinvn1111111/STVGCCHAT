@@ -1,0 +1,20 @@
+{
+  "name": "ServerNode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "webpack_create_development_mode": "webpack ./src/app.js --output ./public/bundle.js --mode development",
+    "webpack_create_production_mode": "webpack ./src/app.js --output ./public/bundle.js --mode production"
+  },
+  "devDependencies": {
+    "jquery": "^3.5.1",
+    "simple-peer": "^9.7.1"
+  }
+}

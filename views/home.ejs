@@ -1,0 +1,66 @@
+<!-- <html>
+    <head>
+        <title>Test</title>
+    </head>
+    <body>
+        <h1>Test</h1>
+        <audio id="audio1"></audio>
+        <video id='video1' controls width="300"></video>
+        <br />
+        <br />
+        <br />
+        <br />
+        <audio id="audio2"></audio>
+        <video id='video2' controls width="300"></video>
+        <br />
+        <br />
+        <br />
+        <br />
+        <label>My Connection Token</label><br/>
+        <textarea rows="3" cols="100" id="txtMysignal"></textarea>
+        <br />
+        <br />
+        <br />
+        <br />
+        <input type="text" placeholder="Your friend token" id="txtFriendSignal"/>
+        <br />
+        <br />
+        <button id="btnConnect">Connect</button>
+    </body>
+    <script src="bundle.js"></script>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CHAT TEAM STVG</title>
+        <script src="jquery.js"></script>
+        <script src="peer.js"></script>
+        <script src="socket.io.js"></script>  
+    </head>
+    <body>
+        <div class="dangki">
+            <br /><br />
+            <br /><br />
+            <input type="text" id="usn" placeholder="Enter your Username"/>
+            <button id="btnRegister">Register</button>
+        </div>
+
+        <div class="chat">
+            <h1 id="iduser">Your ID : </h1>
+            <p>ONLINE USERS :</p>
+            <ul id="arrUsers"></ul>
+            <audio id="audio1"></audio>
+            <video id="localStream" width="300" controls></video>
+            <br /><br />
+            <audio id="audio2"></audio>
+            <video id="friendStream" width="300" controls></video>
+            <br /><br />
+            <br /><br />
+            <input type="text" id="idFriend" placeholder="Enter your Friend ID"/>
+            <button id="btnCall">CALL</button>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
